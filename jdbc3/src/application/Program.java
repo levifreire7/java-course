@@ -27,11 +27,8 @@ public class Program {
 			}			
 		}catch(SQLException e) {
 			e.printStackTrace();
-		}finally {
-			DB.closeResultSet(rs);
-			DB.closeStatement(st);
-			DB.closeConnection();
 		}
+
 	}
 
 }
